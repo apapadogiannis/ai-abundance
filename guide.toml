@@ -15,7 +15,7 @@ coverage = [
   "The five layers of scarcity: what each holds and the one-sentence prediction the paper makes for it.",
   "The three central claims and seven definitions, in the paper's own words.",
   "The model: Equations 1 to 6, Definition 1, Proposition 1 and its proof, with the mathematics in LaTeX, and a glossary of 21 symbols.",
-  "Beyond the article: 11 tests, each with a measure, the kind of public source it can be read from, the outcome that would count against the paper and what would not. Baseline 2022, readings on data for 2027 and for 2032. Ten of the 24 rows of Table 1 are used by a test.",
+  "Beyond the article: 11 tests, each with a measure, the kind of public source it can be read from, the outcome that would count against the paper and what would not. Two baselines, 2022 and 2026; readings on data for 2027 and for 2032; the verdict is taken on the change from 2026 to 2032. Ten of the 24 rows of Table 1 are used by a test.",
   "The three figures of the paper are diagrams and have no data.",
 ]
 adds = [
@@ -39,7 +39,7 @@ read = [
   "The table says 'post-AI' without a date. The article's regime boundary, Point A, is a threshold of deployment and not a year.",
   "The household rows (D1, D2) are read through household claims on layer rents and transfers, not through direct ownership, as the article says.",
   "A positive sign can come from a higher layer rent, a larger share of it, or both. The table does not say which.",
-  "The predictions in outputs/layers.csv are quoted from the article. The measures and dates in outputs/tests.csv and the verdict rules in beyond/README.md are not from the article: they were set by the author for this record on 22 November 2026. The tests are not blind: the baseline is 2022, and four of the five years to the first reading had passed when they were written.",
+  "The predictions in outputs/layers.csv are quoted from the article. The measures and dates in outputs/tests.csv and the verdict rules in beyond/README.md are not from the article: they were set by the author for this record on 22 November 2026. Measured from 2022 the tests are not blind: four of the five years to the first reading had passed when they were written. The second baseline, 2026, is the year they were written, and the verdict is taken on the change from 2026 to 2032.",
   "A test on two rows of Table 1 says which of the two did better. It does not test the level the table gives either row.",
   "A passage in outputs/definitions.csv is cut out of the article as it stands. It can be a phrase and not a sentence, and it can refer to text before it ('these mechanisms' in the passage on Point A are the four domains of cost compression). The formal definition of AEA is Definition 1 in outputs/model.csv. The article says 'broad affordability' in words and 'every household' in Definition 1.",
   "Cite the article. Its DOI is https://doi.org/10.1007/s44216-026-00090-y. The citation below gives the address of the preprint, which is where the text can be read until the article appears.",
@@ -128,14 +128,15 @@ introduced_in = "where the article introduces it"
 
 [[table]]
 file = "tests.csv"
-what = "Beyond the article: for each prediction, how it could be found wrong. Baseline 2022; first reading on data for 2027, final reading on data for 2032. No reading has been taken."
+what = "Beyond the article: for each prediction, how it could be found wrong. Baselines 2022 and 2026; first reading on data for 2027, final reading on data for 2032. No reading has been taken."
 [table.columns]
 id = "identifier of the test, T1 to T11"
 refers_to = "what the test is about: layer:N for the prediction on layer N; claim:central for the central claim as stated in the introduction; table:X<Y for two rows of Table 1 where the net sign of X is lower than that of Y"
 article_says = "the sentence or the net signs of the article that the test refers to, taken from the other tables"
 measure = "what would be measured"
 public_sources = "the kind of public source it can be read from; no series has been chosen"
-baseline = "the year the change is measured from; for T7 to T11 an average of three years ending then"
+baseline = "the first year the change is measured from, 2022; for T7 to T11 an average of three years ending then"
+second_baseline = "the second year the change is measured from, 2026, the year the tests were written; the verdict is taken from this one"
 first_reading = "the year of the data for the first reading"
 final_reading = "the year of the data for the final reading, at which the verdict is taken"
 counts_against = "the outcome at the final reading that would count against the paper"

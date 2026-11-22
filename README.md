@@ -43,7 +43,7 @@ The record holds:
 - **The model**: six equations, the definition of AEA, the proposition and its proof.
 - **The central claims and definitions**, in the paper's own words.
 - **One page that goes beyond the article**: [how this paper could be wrong](beyond/README.md).
-  For each prediction it gives a measure, two dates and the outcome that would count against the
+  For each prediction it gives a measure, two baselines, two dates and the outcome that would count against the
   paper. The article itself gives none of these. No test has been read against data, and the page
   says where the tests are weak.
 

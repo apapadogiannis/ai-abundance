@@ -3,7 +3,7 @@
 **This page goes beyond the published article.** The article is theoretical. It states its
 predictions without a date and without a measure, and it says of its table that the entries "are
 not forecasts". This page adds what the article leaves open: for each prediction, a measure, two
-dates on which it is read, and the outcome that would count against it. Nothing here was computed.
+baselines, two dates on which it is read, and the outcome that would count against it. Nothing here was computed.
 No reading had been taken when the page was written, on 22 November 2026. The tests are not
 blind, however: see the first limit below.
 
@@ -26,17 +26,18 @@ The tests below are about those statements.
 
 | | Date | Why |
 |---|---|---|
-| Baseline | 2022, the calendar year | The last full year before general-purpose AI models were in wide public use. |
+| First baseline | 2022, the calendar year | The last full year before general-purpose AI models were in wide public use. It covers the whole period, but most of it had passed when this page was written. |
+| Second baseline | 2026, the calendar year | The year in which this page was written. What happens after it could not be seen when the tests were fixed. |
 | First reading | data for 2027 | Five years. Early enough to be checked soon, late enough for capacity with long lead times to have been built or not. |
-| Final reading | data for 2032 | Ten years. The verdict of each test is taken here. |
+| Final reading | data for 2032 | Ten years from the first baseline, six from the second. The verdict of each test is taken here. |
 
 A measure that swings with the business cycle (tests T7 to T11) is read as an average of three
-years ending at the date, at the baseline as well as at the readings. The article names no date itself: its regime boundary, "Point A", is a threshold of
+years ending at the date, at both baselines as well as at the readings. The article names no date itself: its regime boundary, "Point A", is a threshold of
 deployment and not a year. The dates are therefore a choice of this page.
 
 ## The tests
 
-| Test | Refers to | What would count against the paper, at the final reading |
+| Test | Refers to | What would count against the paper, from 2026 to the final reading |
 |---|---|---|
 | T1 | Prediction for layer 1, physical | Inelastic endowments (urban land, water, critical minerals) became cheaper relative to manufactured goods in most large economies. |
 | T2 | Prediction for layer 2, infrastructural | Margins of chip foundries, cloud platforms and data-center operators fell below their baseline although lead times for new capacity had not shortened. |
@@ -57,6 +58,11 @@ them the chip manufacturers, the households and all of Panel B, have no test her
 
 ## How the verdict is taken
 
+- **The verdict is taken on the change from 2026 to 2032.** That is the part of each test that
+  was fixed before it could be seen. The change from 2022 is reported beside it. Where the two
+  disagree, the reading says so, and the change since 2022 cannot rescue a test that failed since
+  2026.
+
 - **The layer predictions** (T1 to T5) are judged one by one. Each stands or falls alone.
 - **The central claim** (T6) is the test that matters most. If cost compression alone made the
   essential bundle affordable to the poorest households across most economies, the paper's main
@@ -68,19 +74,21 @@ them the chip manufacturers, the households and all of Panel B, have no test her
 
 ## Limits of these tests
 
-- **The tests are not blind.** The baseline is 2022 and the page was written in late 2026, so four
-  of the five years to the first reading had already passed. No reading was taken for this page,
-  but the direction of several measures over those years is common knowledge, and some of it
-  favours the paper (office property, cloud margins). The readings on data for 2027 are therefore
-  weak evidence. The years from 2027 to 2032 are the part that was fixed before it could be seen.
+- **Measured from 2022, the tests are not blind.** The page was written in late 2026, so four of
+  the five years to the first reading had already passed. No reading was taken for this page, but
+  the direction of several measures over those years is common knowledge, and some of it favours
+  the paper (office property, cloud margins). This is why there is a second baseline, 2026, and
+  why the verdict is taken from it. The first reading, on data for 2027, is one year after that
+  baseline and is weak evidence either way.
 - **Direction only.** A test is decided by the sign of a change. No minimum size is set, and no
   series, list of firms or list of countries has been chosen. Whoever takes a reading has to make
   these choices and should state them before looking at the result.
 - **Earlier trends.** Some of these measures were already moving the paper's way before 2022, for
-  reasons that have nothing to do with AI. A reading should set the change since 2022 beside the
-  change over the ten years before.
+  reasons that have nothing to do with AI. A reading should set the change since each baseline
+  beside the change over the ten years before 2022.
 - **2022 is an unusual base year** for travel, shipping, minerals and property. The three-year
-  average softens this for T7 to T11 and does not remove it.
+  average softens this for T7 to T11 and does not remove it. The 2026 baseline does not have this
+  problem to the same degree.
 
 - **The measures are proxies.** The article defines rents and exposure in the abstract. Margins,
   relative prices and pay ratios are stand-ins, and a different stand-in could give a different
