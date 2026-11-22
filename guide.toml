@@ -1,0 +1,142 @@
+# The statements of llms.txt and of outputs/results.json that are specific to this record.
+# scripts/make_guide.py combines them with CITATION.cff and the stored tables. No statement of the
+# paper is written here: the tables are read out of paper/manuscript.tex by scripts/make_record.py.
+
+ssrn = "10.2139/ssrn.5924462"
+data_as_of = "The paper as accepted on 3 August 2026, with the wording changes made in proof. The tests of the added page were written on 22 November 2026; no reading of them has been taken."
+units = "There are no measured quantities. Table 1 holds signs: ++, +, 0, - and --, stored also as scores from 2 to -2. A sign is the direction the paper expects for a change in rent income; it has no size."
+describe_as = "Papadogiannis (forthcoming), \"Scarcity in an age of AI abundance\", Asian Review of Political Economy, https://doi.org/10.1007/s44216-026-00090-y, with the record of its definitions, model and table."
+what = "This is a paper record, not a replication package: the paper is theoretical and has no data and no computation to reproduce. The paper argues that AI can make many goods and services cheap to produce (AI technological abundance, ATA) without making an essential standard of living broadly affordable (AI economic abundance, AEA), because scarcity and its rents move to five layers: physical resources, infrastructure, capabilities, institutions and jurisdictions. The record holds the paper's definitions, the five layers with the prediction for each, the model, and Table 1 as data, all read out of the manuscript source. One added page, which goes beyond the article, says how each prediction could be found wrong. The manuscript is in paper/."
+third_party = "Nothing in this record comes from a third party. The paper is open access under CC BY 4.0, the licence of Asian Review of Political Economy, and the passages of it held in the tables are under that licence."
+results_file = "a description of the eight record tables and the meaning of every column. The content itself is in the CSV files."
+
+coverage = [
+  "Table 1 of the paper: 24 actors and industries in five panels, with the sign of each of the five layers' contribution to the actor's rent income and the net sign. 144 signs.",
+  "The five layers of scarcity: what each holds and the one-sentence prediction the paper makes for it.",
+  "The three central claims and seven definitions, in the paper's own words.",
+  "The model: Equations 1 to 6, Definition 1, Proposition 1 and its proof, with the mathematics in LaTeX, and a glossary of 21 symbols.",
+  "Beyond the article: 11 tests, each with a measure, the kind of public source it can be read from, the outcome that would count against the paper and what would not. Baseline 2022, readings on data for 2027 and for 2032. Ten of the 24 rows of Table 1 are used by a test.",
+  "The three figures of the paper are diagrams and have no data.",
+]
+adds = [
+  "The table as data. Each of the 144 signs (120 layer signs and 24 net signs) can be looked up by actor and column, and each actor has an identifier (A1 to E4) that the tests use. When the record was made, the signs were compared once with the table in the journal's proof of the article, and all 144 agreed; that comparison is not part of the check, because the proof is not in this repository.",
+  "A statement of what in the paper can and cannot be wrong. Proposition 1 is an existence claim proved by construction, so no observation can count against it. The article calls its condition (6) falsifiable: that condition can be checked for a given economy, which is a different thing. The layer predictions and five pairs of rows of Table 1 can be wrong, and outputs/tests.csv says by what measure and by when; beyond/README.md says how the verdict is taken and where the tests are weak. The article itself gives no date and no measure.",
+  "The paper's own limits, kept with the content: the table's caption says its entries are schematic and conjectural, 'not forecasts', and 'may not materialize'. The record repeats this wherever the signs are described.",
+  "A separation of what is the article and what is not. Six tables hold the article's own signs and passages. In them the record supplies only the row identifiers, the column names, the names of the six equations, the scores, the choice of the seven defining passages and the column that says which tests use a row. outputs/symbols.csv is a glossary written for this record from the article's definitions. outputs/tests.csv, and the folder beyond/, go beyond the article.",
+  "The signs, the passages and the equations are read out of the manuscript source by a script, so none of them is typed. The script fails if the manuscript does not have 24 actors in five panels, the five layer columns in order, five layers and six equations, if a symbol of the glossary does not occur in the manuscript, or if a test refers to a row or a layer that does not exist.",
+]
+files = [
+  "outputs/table1.csv: for the table. One row per actor.",
+  "outputs/tests.csv: for what would count against the paper. The page beyond/README.md explains the dates, how the verdict is taken and the limits of the tests.",
+  "paper/manuscript.pdf, paper/manuscript.tex: the paper, author's version of the accepted text.",
+  "data/symbols.csv, beyond/tests.csv: the two files written by hand. The script checks them; it copies the first into outputs/ and joins the second to the passages and signs it refers to.",
+]
+read = [
+  "A sign in Table 1 is the direction the paper expects for the change in an actor's rent income from one layer (the product of the actor's share of that layer and the layer's rent). The article calls the cells qualitative. ++ and -- mark a stronger change than + and -; the article gives no size. 0 means no change or roughly none (the text says 'roughly neutral' and 'near zero'); it does not mean missing.",
+  "The double minus is written -- in the files. The journal prints it as two minus signs.",
+  "The net column is, in the article's words, the implied direction of the change in the actor's total rent income, which is the sum of the five layer components. The sizes of those components are not given, so the net cannot be recomputed from the signs, and the scores must not be added up: for A5 the layers are 0, ++, +, ++, ++ and the net is ++; for C1 they are 0, -, -, 0, 0 and the net is -.",
+  "The scores 2, 1, 0, -1, -2 in outputs/table1_signs.csv only encode the signs for sorting and filtering. They are not on an interval scale.",
+  "The table says 'post-AI' without a date. The article's regime boundary, Point A, is a threshold of deployment and not a year.",
+  "The household rows (D1, D2) are read through household claims on layer rents and transfers, not through direct ownership, as the article says.",
+  "A positive sign can come from a higher layer rent, a larger share of it, or both. The table does not say which.",
+  "The predictions in outputs/layers.csv are quoted from the article. The measures and dates in outputs/tests.csv and the verdict rules in beyond/README.md are not from the article: they were set by the author for this record on 22 November 2026. The tests are not blind: the baseline is 2022, and four of the five years to the first reading had passed when they were written.",
+  "A test on two rows of Table 1 says which of the two did better. It does not test the level the table gives either row.",
+  "A passage in outputs/definitions.csv is cut out of the article as it stands. It can be a phrase and not a sentence, and it can refer to text before it ('these mechanisms' in the passage on Point A are the four domains of cost compression). The formal definition of AEA is Definition 1 in outputs/model.csv. The article says 'broad affordability' in words and 'every household' in Definition 1.",
+  "Cite the article. Its DOI is https://doi.org/10.1007/s44216-026-00090-y. The citation below gives the address of the preprint, which is where the text can be read until the article appears.",
+  "Mathematics is kept in LaTeX: R_{2,t} is the rent of layer 2 at date t. outputs/symbols.csv explains each symbol.",
+  "The title is written as the journal prints it, in sentence case. Earlier versions of the preprint used 'Scarcity in an Age of AI Abundance'.",
+]
+not_for = [
+  "A forecast of returns, margins or prices for any industry or company. The table's entries are qualitative conjectures and the article says they are not forecasts.",
+  "Evidence that the predictions hold. No test in this record has been read against data.",
+  "An estimate of the size of any rent, of the ownership shares, or of the cost of the reference bundle. The model has no calibrated parameter.",
+  "A date for AI technological abundance or a view on whether artificial general intelligence is feasible. The paper takes no position on either.",
+  "Investment advice.",
+]
+
+[[table]]
+file = "table1.csv"
+what = "Table 1 of the paper, one row per actor or industry: the expected direction of each layer's contribution to rent income, and the net direction. Schematic and conjectural; the article says the entries are not forecasts."
+[table.columns]
+id = "identifier of the row: the panel letter and the position in the panel, A1 to E4"
+panel = "panel of the table, A to E"
+panel_title = "title of the panel, as printed"
+actor = "actor or industry, as printed in bold in the table"
+note = "the small print under the actor's name, as printed; empty where the table has none"
+physical = "sign of the contribution of layer 1, physical, to the change in the actor's rent income: ++, +, 0, - or --"
+infrastructural = "the same for layer 2, infrastructural"
+capabilities = "the same for layer 3, capabilities"
+institutional = "the same for layer 4, institutional"
+jurisdictional = "the same for layer 5, jurisdictional"
+net = "the implied direction of the change in the actor's total rent income, as printed; it cannot be recomputed from the five signs, because their sizes are not given"
+tests = "the tests of outputs/tests.csv that use this row, separated by a space; empty for the 14 rows that no test uses"
+
+[[table]]
+file = "table1_signs.csv"
+what = "The same table with one row per actor and column, for filtering: 24 actors times five layers and the net column."
+[table.columns]
+id = "identifier of the actor's row in table1.csv"
+actor = "actor or industry"
+column = "physical, infrastructural, capabilities, institutional, jurisdictional, or net"
+layer_number = "1 to 5 for a layer; empty for the net column"
+sign = "the sign: ++, +, 0, - or --"
+score = "the sign as a whole number from 2 to -2, for sorting only; not a measured size and not to be summed"
+
+[[table]]
+file = "layers.csv"
+what = "The five layers of scarcity, in the article's words."
+[table.columns]
+layer = "number of the layer, 1 to 5"
+name = "name of the layer"
+holds = "what the layer consists of, from the article's list of the five layers, citations removed"
+prediction = "the sentence that follows the word 'Prediction:' in the article's section on that layer"
+
+[[table]]
+file = "claims.csv"
+what = "The three central claims, as listed in the introduction."
+[table.columns]
+claim = "number of the claim, 1 to 3"
+title = "the claim in a few words, as printed in bold"
+text = "the article's explanation of the claim"
+
+[[table]]
+file = "definitions.csv"
+what = "Seven terms of the paper, each with the passage of the article that defines it."
+[table.columns]
+term = "the term"
+short = "its abbreviation, where the article uses one"
+section = "the section of the article the passage is taken from"
+text = "the passage, word for word, citations removed; it can be a phrase, and it can refer to text that stands before it in the article"
+
+[[table]]
+file = "model.csv"
+what = "The model of the section 'A compact mathematical formulation': six equations, the definition of AEA, the proposition and its proof."
+[table.columns]
+item = "Equation 1 to 6, Definition 1, Proposition 1, or its proof"
+name = "for an equation, a label given by the record; for the definition and the proposition, the title the article gives them; empty for the proof"
+form = "latex for an equation; text with LaTeX mathematics for the others"
+content = "the equation or the statement, from the manuscript source"
+
+[[table]]
+file = "symbols.csv"
+what = "Glossary of the symbols. Written for this record from the article's definitions; not a passage of the article."
+[table.columns]
+symbol = "short name of the symbol"
+latex = "the symbol in LaTeX, in a form that occurs in the manuscript source"
+meaning = "what it stands for"
+introduced_in = "where the article introduces it"
+
+[[table]]
+file = "tests.csv"
+what = "Beyond the article: for each prediction, how it could be found wrong. Baseline 2022; first reading on data for 2027, final reading on data for 2032. No reading has been taken."
+[table.columns]
+id = "identifier of the test, T1 to T11"
+refers_to = "what the test is about: layer:N for the prediction on layer N; claim:central for the central claim as stated in the introduction; table:X<Y for two rows of Table 1 where the net sign of X is lower than that of Y"
+article_says = "the sentence or the net signs of the article that the test refers to, taken from the other tables"
+measure = "what would be measured"
+public_sources = "the kind of public source it can be read from; no series has been chosen"
+baseline = "the year the change is measured from; for T7 to T11 an average of three years ending then"
+first_reading = "the year of the data for the first reading"
+final_reading = "the year of the data for the final reading, at which the verdict is taken"
+counts_against = "the outcome at the final reading that would count against the paper"
+does_not_count = "an outcome that looks similar and would not count against the paper, with the reason"

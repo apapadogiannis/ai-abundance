@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this paper or its record, please cite it as below."
+title: "Scarcity in an age of AI abundance"
+authors:
+  - family-names: Papadogiannis
+    given-names: Agisilaos
+    orcid: "https://orcid.org/0009-0002-7753-7052"
+date-released: 2026-11-22
+version: "0.1.0"
+license:
+  - MIT
+  - CC-BY-4.0
+repository-code: "https://github.com/apapadogiannis/ai-abundance"
+preferred-citation:
+  type: article
+  title: "Scarcity in an age of AI abundance"
+  authors:
+    - family-names: Papadogiannis
+      given-names: Agisilaos
+  journal: "Asian Review of Political Economy"
+  year: 2027
+  url: "https://ssrn.com/abstract=5924462"
+  status: in-press

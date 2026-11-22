@@ -1,0 +1,10 @@
+item,name,form,content
+Equation 1,layer rent vector,latex,"R_t=(R_{1,t},R_{2,t},R_{3,t},R_{4,t},R_{5,t})"
+Equation 2,ownership matrix,latex,"O=(O_{i\ell})_{i=1,\dots,N;\;\ell\in\mathcal{L}}, \qquad \sum_{i=1}^N O_{i\ell}=1 \ \text{ for each } \ell\in\mathcal{L},"
+Equation 3,rent income of an actor,latex,"\Pi_{i,t}=\sum_{\ell\in\mathcal{L}} O_{i\ell}\,R_{\ell,t},"
+Equation 4,disposable resources of a household,latex,"Y_{h,t}:=W_{h,t}+\sum_{\ell\in\mathcal{L}} \omega_{h\ell}\,R_{\ell,t}+T_{h,t},"
+Equation 5,price of the reference bundle,latex,"P_t(b)=\bar{C}_t(b)+\sum_{\ell\in\mathcal{L}} \kappa_\ell(b)\,r_{\ell,t},"
+Equation 6,condition for AI economic abundance,latex,"W_{h,t}+\sum_{\ell\in\mathcal{L}} \omega_{h\ell}\,R_{\ell,t}(a)+T_{h,t} \;\ge\; \bar{C}_t(b)+\sum_{\ell\in\mathcal{L}} \kappa_\ell(b)\,r_{\ell,t}(a) \quad \text{for all } h\in\mathcal{H}."
+Definition 1,AEA: bundle-affordability condition,text with LaTeX mathematics,"AEA holds at date t if every household can afford the reference bundle b, that is, Y_{h,t}\ge P_t(b) for all h\in\mathcal{H}."
+Proposition 1,ATA is not sufficient in general,text with LaTeX mathematics,"There exist economies in which increasing ATA intensity a lowers \bar{C}_t(b) and reduces rent intensity r_{\ell,t}(a) in some layers, yet AEA fails because rent intensity rises in layers with large \kappa_\ell(b) and household claims \omega_{h\ell} on those layers are sufficiently concentrated that (6) is violated for some households."
+Proof of Proposition 1,,text with LaTeX mathematics,"Construct an economy in which \kappa_{\ell^\ast}(b) is large for some layer \ell^\ast, in which r_{\ell^\ast,t}(a) increases with a, and in which \omega_{h\ell^\ast}=0 for a nontrivial subset of households while transfers T_{h,t} are fixed and small. Then the right-hand side of (6) rises for those households while the left-hand side does not, so AEA fails even if \bar{C}_t(b) falls."

@@ -1,0 +1,145 @@
+id,actor,column,layer_number,sign,score
+A1,Critical resource producers,physical,1,++,2
+A1,Critical resource producers,infrastructural,2,0,0
+A1,Critical resource producers,capabilities,3,0,0
+A1,Critical resource producers,institutional,4,0,0
+A1,Critical resource producers,jurisdictional,5,+,1
+A1,Critical resource producers,net,,++,2
+A2,Oil & gas producers,physical,1,++,2
+A2,Oil & gas producers,infrastructural,2,+,1
+A2,Oil & gas producers,capabilities,3,0,0
+A2,Oil & gas producers,institutional,4,+,1
+A2,Oil & gas producers,jurisdictional,5,+,1
+A2,Oil & gas producers,net,,++,2
+A3,Prime-location real estate owners / landlords,physical,1,++,2
+A3,Prime-location real estate owners / landlords,infrastructural,2,0,0
+A3,Prime-location real estate owners / landlords,capabilities,3,0,0
+A3,Prime-location real estate owners / landlords,institutional,4,0,0
+A3,Prime-location real estate owners / landlords,jurisdictional,5,+,1
+A3,Prime-location real estate owners / landlords,net,,++,2
+A4,Advanced semiconductor manufacturers,physical,1,+,1
+A4,Advanced semiconductor manufacturers,infrastructural,2,++,2
+A4,Advanced semiconductor manufacturers,capabilities,3,+,1
+A4,Advanced semiconductor manufacturers,institutional,4,+,1
+A4,Advanced semiconductor manufacturers,jurisdictional,5,+,1
+A4,Advanced semiconductor manufacturers,net,,++,2
+A5,Hyperscale cloud and AI platforms,physical,1,0,0
+A5,Hyperscale cloud and AI platforms,infrastructural,2,++,2
+A5,Hyperscale cloud and AI platforms,capabilities,3,+,1
+A5,Hyperscale cloud and AI platforms,institutional,4,++,2
+A5,Hyperscale cloud and AI platforms,jurisdictional,5,++,2
+A5,Hyperscale cloud and AI platforms,net,,++,2
+A6,Automation equipment and robotics suppliers,physical,1,+,1
+A6,Automation equipment and robotics suppliers,infrastructural,2,+,1
+A6,Automation equipment and robotics suppliers,capabilities,3,+,1
+A6,Automation equipment and robotics suppliers,institutional,4,0,0
+A6,Automation equipment and robotics suppliers,jurisdictional,5,+,1
+A6,Automation equipment and robotics suppliers,net,,+,1
+A7,Nuclear build-out and baseload power,physical,1,+,1
+A7,Nuclear build-out and baseload power,infrastructural,2,+,1
+A7,Nuclear build-out and baseload power,capabilities,3,0,0
+A7,Nuclear build-out and baseload power,institutional,4,+,1
+A7,Nuclear build-out and baseload power,jurisdictional,5,+,1
+A7,Nuclear build-out and baseload power,net,,+,1
+B1,Pharma and biotech,physical,1,0,0
+B1,Pharma and biotech,infrastructural,2,+,1
+B1,Pharma and biotech,capabilities,3,++,2
+B1,Pharma and biotech,institutional,4,+,1
+B1,Pharma and biotech,jurisdictional,5,+,1
+B1,Pharma and biotech,net,,++,2
+B2,Frontier AI / safety / integration talent,physical,1,0,0
+B2,Frontier AI / safety / integration talent,infrastructural,2,0,0
+B2,Frontier AI / safety / integration talent,capabilities,3,++,2
+B2,Frontier AI / safety / integration talent,institutional,4,+,1
+B2,Frontier AI / safety / integration talent,jurisdictional,5,+,1
+B2,Frontier AI / safety / integration talent,net,,++,2
+B3,Elite education / credential gatekeepers,physical,1,0,0
+B3,Elite education / credential gatekeepers,infrastructural,2,0,0
+B3,Elite education / credential gatekeepers,capabilities,3,+,1
+B3,Elite education / credential gatekeepers,institutional,4,+,1
+B3,Elite education / credential gatekeepers,jurisdictional,5,+,1
+B3,Elite education / credential gatekeepers,net,,+,1
+B4,Open-source communities / small AI start-ups,physical,1,0,0
+B4,Open-source communities / small AI start-ups,infrastructural,2,-,-1
+B4,Open-source communities / small AI start-ups,capabilities,3,++,2
+B4,Open-source communities / small AI start-ups,institutional,4,-,-1
+B4,Open-source communities / small AI start-ups,jurisdictional,5,0,0
+B4,Open-source communities / small AI start-ups,net,,0,0
+C1,Traditional software product firms,physical,1,0,0
+C1,Traditional software product firms,infrastructural,2,-,-1
+C1,Traditional software product firms,capabilities,3,-,-1
+C1,Traditional software product firms,institutional,4,0,0
+C1,Traditional software product firms,jurisdictional,5,0,0
+C1,Traditional software product firms,net,,-,-1
+C2,Traditional industrial manufacturers,physical,1,0,0
+C2,Traditional industrial manufacturers,infrastructural,2,0,0
+C2,Traditional industrial manufacturers,capabilities,3,-,-1
+C2,Traditional industrial manufacturers,institutional,4,0,0
+C2,Traditional industrial manufacturers,jurisdictional,5,0,0
+C2,Traditional industrial manufacturers,net,,-,-1
+C3,Non-elite education providers,physical,1,0,0
+C3,Non-elite education providers,infrastructural,2,0,0
+C3,Non-elite education providers,capabilities,3,-,-1
+C3,Non-elite education providers,institutional,4,0,0
+C3,Non-elite education providers,jurisdictional,5,0,0
+C3,Non-elite education providers,net,,-,-1
+C4,Airlines (carriers),physical,1,0,0
+C4,Airlines (carriers),infrastructural,2,0,0
+C4,Airlines (carriers),capabilities,3,0,0
+C4,Airlines (carriers),institutional,4,0,0
+C4,Airlines (carriers),jurisdictional,5,0,0
+C4,Airlines (carriers),net,,0,0
+C5,Hotels (undifferentiated mid-market inventory),physical,1,0,0
+C5,Hotels (undifferentiated mid-market inventory),infrastructural,2,0,0
+C5,Hotels (undifferentiated mid-market inventory),capabilities,3,-,-1
+C5,Hotels (undifferentiated mid-market inventory),institutional,4,0,0
+C5,Hotels (undifferentiated mid-market inventory),jurisdictional,5,0,0
+C5,Hotels (undifferentiated mid-market inventory),net,,-,-1
+C6,Shipping (commoditized carriers),physical,1,0,0
+C6,Shipping (commoditized carriers),infrastructural,2,0,0
+C6,Shipping (commoditized carriers),capabilities,3,0,0
+C6,Shipping (commoditized carriers),institutional,4,0,0
+C6,Shipping (commoditized carriers),jurisdictional,5,0,0
+C6,Shipping (commoditized carriers),net,,0,0
+C7,REITs (generic office / weak locations),physical,1,-,-1
+C7,REITs (generic office / weak locations),infrastructural,2,0,0
+C7,REITs (generic office / weak locations),capabilities,3,0,0
+C7,REITs (generic office / weak locations),institutional,4,0,0
+C7,REITs (generic office / weak locations),jurisdictional,5,0,0
+C7,REITs (generic office / weak locations),net,,-,-1
+D1,Households in privileged jurisdictions,physical,1,+,1
+D1,Households in privileged jurisdictions,infrastructural,2,0,0
+D1,Households in privileged jurisdictions,capabilities,3,0,0
+D1,Households in privileged jurisdictions,institutional,4,+,1
+D1,Households in privileged jurisdictions,jurisdictional,5,+,1
+D1,Households in privileged jurisdictions,net,,+,1
+D2,Households in exposed jurisdictions,physical,1,-,-1
+D2,Households in exposed jurisdictions,infrastructural,2,0,0
+D2,Households in exposed jurisdictions,capabilities,3,-,-1
+D2,Households in exposed jurisdictions,institutional,4,-,-1
+D2,Households in exposed jurisdictions,jurisdictional,5,--,-2
+D2,Households in exposed jurisdictions,net,,--,-2
+E1,Airport slot/gate holders and hub operators,physical,1,+,1
+E1,Airport slot/gate holders and hub operators,infrastructural,2,+,1
+E1,Airport slot/gate holders and hub operators,capabilities,3,0,0
+E1,Airport slot/gate holders and hub operators,institutional,4,+,1
+E1,Airport slot/gate holders and hub operators,jurisdictional,5,0,0
+E1,Airport slot/gate holders and hub operators,net,,+,1
+E2,Hotels (prime locations / strong brands),physical,1,+,1
+E2,Hotels (prime locations / strong brands),infrastructural,2,0,0
+E2,Hotels (prime locations / strong brands),capabilities,3,+,1
+E2,Hotels (prime locations / strong brands),institutional,4,0,0
+E2,Hotels (prime locations / strong brands),jurisdictional,5,+,1
+E2,Hotels (prime locations / strong brands),net,,+,1
+E3,Shipping & logistics (integrated networks/ports),physical,1,0,0
+E3,Shipping & logistics (integrated networks/ports),infrastructural,2,+,1
+E3,Shipping & logistics (integrated networks/ports),capabilities,3,0,0
+E3,Shipping & logistics (integrated networks/ports),institutional,4,0,0
+E3,Shipping & logistics (integrated networks/ports),jurisdictional,5,+,1
+E3,Shipping & logistics (integrated networks/ports),net,,+,1
+E4,REITs (data centers / logistics / scarce hubs),physical,1,+,1
+E4,REITs (data centers / logistics / scarce hubs),infrastructural,2,+,1
+E4,REITs (data centers / logistics / scarce hubs),capabilities,3,0,0
+E4,REITs (data centers / logistics / scarce hubs),institutional,4,0,0
+E4,REITs (data centers / logistics / scarce hubs),jurisdictional,5,+,1
+E4,REITs (data centers / logistics / scarce hubs),net,,+,1

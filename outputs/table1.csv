@@ -1,0 +1,25 @@
+id,panel,panel_title,actor,note,physical,infrastructural,capabilities,institutional,jurisdictional,net,tests
+A1,A,Bottleneck owners and essential suppliers,Critical resource producers,"energy, water, critical minerals, prime land/real estate",++,0,0,0,+,++,
+A2,A,Bottleneck owners and essential suppliers,Oil & gas producers,reliable fuel supply chains; feedstock; geopolitics,++,+,0,+,+,++,
+A3,A,Bottleneck owners and essential suppliers,Prime-location real estate owners / landlords,"scarce land, safe climates",++,0,0,0,+,++,
+A4,A,Bottleneck owners and essential suppliers,Advanced semiconductor manufacturers,"foundries, fabs, lithography supply chains",+,++,+,+,+,++,
+A5,A,Bottleneck owners and essential suppliers,Hyperscale cloud and AI platforms,"data centers, model access, distribution",0,++,+,++,++,++,T11
+A6,A,Bottleneck owners and essential suppliers,Automation equipment and robotics suppliers,industrial automation hardware,+,+,+,0,+,+,
+A7,A,Bottleneck owners and essential suppliers,Nuclear build-out and baseload power,utilities/operators in capacity-constrained grids,+,+,0,+,+,+,
+B1,B,Knowledge-intensive winners and frontier capability holders,Pharma and biotech,"drug discovery, advanced therapies",0,+,++,+,+,++,
+B2,B,Knowledge-intensive winners and frontier capability holders,Frontier AI / safety / integration talent,and top technical organizations,0,0,++,+,+,++,
+B3,B,Knowledge-intensive winners and frontier capability holders,Elite education / credential gatekeepers,scarce seats + screening power,0,0,+,+,+,+,
+B4,B,Knowledge-intensive winners and frontier capability holders,Open-source communities / small AI start-ups,capability-rich; infra/inst constrained,0,-,++,-,0,0,
+C1,C,Squeezed intermediates and commoditized services,Traditional software product firms,without proprietary infrastructure,0,-,-,0,0,-,T11
+C2,C,Squeezed intermediates and commoditized services,Traditional industrial manufacturers,late adopters without automation depth,0,0,-,0,0,-,
+C3,C,Squeezed intermediates and commoditized services,Non-elite education providers,generic content delivery; weak credential moat,0,0,-,0,0,-,
+C4,C,Squeezed intermediates and commoditized services,Airlines (carriers),competitive pass-through; capacity rents accrue to slot holders,0,0,0,0,0,0,T7
+C5,C,Squeezed intermediates and commoditized services,Hotels (undifferentiated mid-market inventory),,0,0,-,0,0,-,T8
+C6,C,Squeezed intermediates and commoditized services,Shipping (commoditized carriers),,0,0,0,0,0,0,T9
+C7,C,Squeezed intermediates and commoditized services,REITs (generic office / weak locations),,-,0,0,0,0,-,T10
+D1,D,Households and place-based outcomes,Households in privileged jurisdictions,"safe climate, high-capacity states",+,0,0,+,+,+,
+D2,D,Households and place-based outcomes,Households in exposed jurisdictions,,-,0,-,-,--,--,
+E1,E,Competitive pass-through sectors (rents shift to complements),Airport slot/gate holders and hub operators,scarce access + location,+,+,0,+,0,+,T7
+E2,E,Competitive pass-through sectors (rents shift to complements),Hotels (prime locations / strong brands),scarce land + trust,+,0,+,0,+,+,T8
+E3,E,Competitive pass-through sectors (rents shift to complements),Shipping & logistics (integrated networks/ports),automation + chokepoints,0,+,0,0,+,+,T9
+E4,E,Competitive pass-through sectors (rents shift to complements),REITs (data centers / logistics / scarce hubs),,+,+,0,0,+,+,T10

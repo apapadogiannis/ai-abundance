@@ -1,0 +1,22 @@
+symbol,latex,meaning,introduced_in
+R_l,"R_{\ell,t}","Total rent attributable to bottlenecks in layer l at date t, summed across all actors. Non-negative, and higher when scarcity in that layer binds more tightly.",Equation 1
+R,R_t,The vector of the five layer rents at date t.,Equation 1
+a,a^+,Regime parameter for the intensity of AI technological abundance. It shifts the level and the composition of the rent vector: a higher value can lower some layer rents and raise others.,text after Equation 3
+O,O_{i\ell},"Actor i's share of effective control or residual claims over the rents of layer l, between 0 and 1. The shares of all actors in one layer sum to 1.",Equation 2
+Pi,"\Pi_{i,t}",Total rent income of actor i at date t: the sum over layers of the actor's share times the layer rent.,Equation 3
+pi,"\pi_{i\ell,t}",The part of actor i's rent income that comes from layer l: the actor's share times the layer rent. Table 1 reports the direction of its change.,text before Table 1
+b,\(b\),"Reference bundle for a minimum standard of living: energy services, shelter, basic health care, basic mobility, connectivity.",text before Equation 4
+P,P_t(b),Minimum expenditure needed to obtain the reference bundle at date t.,text before Equation 4
+Y,"Y_{h,t}","Disposable resources of household h at date t: labor income, plus the household's claims on layer rents, plus net transfers.",Equation 4
+W,"W_{h,t}",Labor income of household h at date t.,Equation 4
+T,"T_{h,t}",Net transfers received by household h at date t.,Equation 4
+omega,\omega_{h\ell},"Household h's effective claim on the rents of layer l, between 0 and 1, held directly or through asset ownership and intermediaries.",Equation 4
+r_l,"r_{\ell,t}","Price-relevant rent intensity of layer l: the layer rent times a scaling factor nu, for example rent per unit of bundle-relevant usage.",text before Equation 5
+nu,"\nu_{\ell,t}",Non-negative factor that maps the total rent of layer l into a comparable intensity.,text before Equation 5
+C,\bar{C}_t(b),Competitive production costs of the reference bundle.,Equation 5
+kappa,\kappa_\ell(b),How strongly the rent intensity of layer l enters the expenditure needed to obtain the bundle. Non-negative.,Equation 5
+l,\ell\in\mathcal{L},"Index of a layer, from 1 to 5: physical, infrastructural, capabilities, institutional, jurisdictional. The set of the five layers is written with a calligraphic L.",text before Equation 1
+i,"i=1,\dots,N","Index of an actor or a representative group: a firm, a platform, a state, an institutional investor or a household. There are N of them.",text before Equation 2
+h,h\in\mathcal{H},Index of a household. The set of households is written with a calligraphic H.,text before Equation 4
+t,"R_{\ell,t}",Date. Written as the last subscript.,Equation 1
+Delta,\Delta\pi_{i\ell},"Change after large-scale AI deployment. Table 1 reports the direction of the change in pi for each layer and, in its net column, of the change in Pi.",caption of Table 1

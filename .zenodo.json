@@ -1,0 +1,39 @@
+{
+  "title": "Scarcity in an age of AI abundance: paper record",
+  "upload_type": "dataset",
+  "description": "Record of the paper forthcoming in Asian Review of Political Economy. The paper is theoretical and has no data or computation to replicate. This record holds the manuscript, and the paper's definitions, its five layers of scarcity with the prediction for each, its model (six equations, one definition, one proposition) and its table of expected winners and losers as data files read out of the manuscript source. It adds one page that goes beyond the article: for each prediction, a measure, two dates and the outcome that would count against the paper.",
+  "creators": [
+    {
+      "name": "Papadogiannis, Agisilaos",
+      "orcid": "0009-0002-7753-7052"
+    }
+  ],
+  "keywords": [
+    "artificial intelligence",
+    "scarcity",
+    "economic rents",
+    "inequality",
+    "political economy",
+    "post-scarcity",
+    "infrastructure bottlenecks",
+    "paper record"
+  ],
+  "license": "CC-BY-4.0",
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.1007/s44216-026-00090-y",
+      "scheme": "doi"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://ssrn.com/abstract=5924462",
+      "scheme": "url"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/apapadogiannis/ai-abundance",
+      "scheme": "url"
+    }
+  ]
+}
