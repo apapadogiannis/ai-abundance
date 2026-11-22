@@ -12,6 +12,9 @@ form that can be looked up and checked against later evidence.
 
 ## For AI agents and programs
 
+*The two files named here are written at version 1.0, once the Zenodo archive has its DOI. Until
+then, start at the tables below.*
+
 Read [`llms.txt`](llms.txt) first. It says what the record holds, what it adds over reading the
 paper, how to read the signs of the table and what not to use them for.
 [`outputs/results.json`](outputs/results.json) describes the eight tables and every column, and
