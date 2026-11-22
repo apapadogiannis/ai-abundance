@@ -15,7 +15,7 @@
     "preprint": "https://doi.org/10.2139/ssrn.5924462",
     "repository": "https://github.com/apapadogiannis/ai-abundance",
     "archive": "https://doi.org/10.5281/zenodo.24441153",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "released": "2026-11-22",
     "data_as_of": "The paper as accepted on 3 August 2026, with the wording changes made in proof. The tests of the added page were written on 22 November 2026; no reading of them has been taken.",
     "units": "There are no measured quantities. Table 1 holds signs: ++, +, 0, - and --, stored also as scores from 2 to -2. A sign is the direction the paper expects for a change in rent income; it has no size.",
@@ -27,7 +27,7 @@
       "third_party_data": "Nothing in this record comes from a third party. The paper is open access under CC BY 4.0, the licence of Asian Review of Political Economy, and the passages of it held in the tables are under that licence."
     },
     "cite_as": "Papadogiannis, A. (2027). Scarcity in an age of AI abundance. Asian Review of Political Economy, forthcoming. https://doi.org/10.2139/ssrn.5924462",
-    "cite_package": "Papadogiannis, A. (2026). Scarcity in an age of AI abundance. Replication package, version 1.0.0. Zenodo. https://doi.org/10.5281/zenodo.24441153",
+    "cite_package": "Papadogiannis, A. (2026). Scarcity in an age of AI abundance. Replication package, version 1.0.1. Zenodo. https://doi.org/10.5281/zenodo.24441153",
     "describe_as": "Papadogiannis (forthcoming), \"Scarcity in an age of AI abundance\", Asian Review of Political Economy, https://doi.org/10.1007/s44216-026-00090-y, with the record of its definitions, model and table.",
     "guide": "llms.txt"
   },

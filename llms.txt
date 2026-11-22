@@ -12,7 +12,7 @@
 Replication package by Agisilaos Papadogiannis (https://github.com/apapadogiannis).
 Forthcoming in Asian Review of Political Economy (2027). Preprint: https://doi.org/10.2139/ssrn.5924462
 Code and data: https://github.com/apapadogiannis/ai-abundance  Archive: https://doi.org/10.5281/zenodo.24441153
-Version 1.0.0, released 2026-11-22. A package is a fixed record: it changes only by a new
+Version 1.0.1, released 2026-11-22. A package is a fixed record: it changes only by a new
 release, and a release that changes a reported number gets a new major version.
 This file is written for AI agents and other programs. People should start at the README.
 
@@ -162,7 +162,7 @@ that licence.
 
 Cite as: Papadogiannis, A. (2027). Scarcity in an age of AI abundance. Asian Review of Political Economy, forthcoming. https://doi.org/10.2139/ssrn.5924462
 
-The package itself: Papadogiannis, A. (2026). Scarcity in an age of AI abundance. Replication package, version 1.0.0. Zenodo. https://doi.org/10.5281/zenodo.24441153
+The package itself: Papadogiannis, A. (2026). Scarcity in an age of AI abundance. Replication package, version 1.0.1. Zenodo. https://doi.org/10.5281/zenodo.24441153
 
 To describe the source in a sentence: Papadogiannis (forthcoming), "Scarcity in an age of AI
 abundance", Asian Review of Political Economy, https://doi.org/10.1007/s44216-026-00090-y, with the
