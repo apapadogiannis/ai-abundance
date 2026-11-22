@@ -8,9 +8,4 @@ mkdir -p ../outputs
 echo "== make_record"; python3 -I make_record.py .. ../outputs
 # The description of the record tables (outputs/results.json) and the guide for programs and AI
 # agents (llms.txt).
-# The guide names the Zenodo archive, so it is written from the first release that has one.
-if grep -q '^doi:' ../CITATION.cff; then
-  echo "== make_guide"; python3 -I make_guide.py
-else
-  echo "== make_guide: skipped until CITATION.cff carries the archive DOI"
-fi
+echo "== make_guide"; python3 -I make_guide.py

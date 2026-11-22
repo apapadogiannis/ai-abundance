@@ -1,0 +1,140 @@
+{
+  "package": {
+    "title": "Scarcity in an age of AI abundance",
+    "author": {
+      "name": "Agisilaos Papadogiannis",
+      "orcid": "https://orcid.org/0009-0002-7753-7052",
+      "url": "https://github.com/apapadogiannis"
+    },
+    "status": "forthcoming article",
+    "article": {
+      "journal": "Asian Review of Political Economy",
+      "status": "forthcoming",
+      "year": 2027
+    },
+    "preprint": "https://doi.org/10.2139/ssrn.5924462",
+    "repository": "https://github.com/apapadogiannis/ai-abundance",
+    "archive": "https://doi.org/10.5281/zenodo.24441153",
+    "version": "1.0.0",
+    "released": "2026-11-22",
+    "data_as_of": "The paper as accepted on 3 August 2026, with the wording changes made in proof. The tests of the added page were written on 22 November 2026; no reading of them has been taken.",
+    "units": "There are no measured quantities. Table 1 holds signs: ++, +, 0, - and --, stored also as scores from 2 to -2. A sign is the direction the paper expects for a change in rent income; it has no size.",
+    "licence": {
+      "results": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "condition": "Reuse of the results is allowed with credit to the paper.",
+      "code": "MIT",
+      "third_party_data": "Nothing in this record comes from a third party. The paper is open access under CC BY 4.0, the licence of Asian Review of Political Economy, and the passages of it held in the tables are under that licence."
+    },
+    "cite_as": "Papadogiannis, A. (2027). Scarcity in an age of AI abundance. Asian Review of Political Economy, forthcoming. https://doi.org/10.2139/ssrn.5924462",
+    "cite_package": "Papadogiannis, A. (2026). Scarcity in an age of AI abundance. Replication package, version 1.0.0. Zenodo. https://doi.org/10.5281/zenodo.24441153",
+    "describe_as": "Papadogiannis (forthcoming), \"Scarcity in an age of AI abundance\", Asian Review of Political Economy, https://doi.org/10.1007/s44216-026-00090-y, with the record of its definitions, model and table.",
+    "guide": "llms.txt"
+  },
+  "tables": [
+    {
+      "file": "outputs/table1.csv",
+      "what": "Table 1 of the paper, one row per actor or industry: the expected direction of each layer's contribution to rent income, and the net direction. Schematic and conjectural; the article says the entries are not forecasts.",
+      "rows": 24,
+      "columns": {
+        "id": "identifier of the row: the panel letter and the position in the panel, A1 to E4",
+        "panel": "panel of the table, A to E",
+        "panel_title": "title of the panel, as printed",
+        "actor": "actor or industry, as printed in bold in the table",
+        "note": "the small print under the actor's name, as printed; empty where the table has none",
+        "physical": "sign of the contribution of layer 1, physical, to the change in the actor's rent income: ++, +, 0, - or --",
+        "infrastructural": "the same for layer 2, infrastructural",
+        "capabilities": "the same for layer 3, capabilities",
+        "institutional": "the same for layer 4, institutional",
+        "jurisdictional": "the same for layer 5, jurisdictional",
+        "net": "the implied direction of the change in the actor's total rent income, as printed; it cannot be recomputed from the five signs, because their sizes are not given",
+        "tests": "the tests of outputs/tests.csv that use this row, separated by a space; empty for the 14 rows that no test uses"
+      }
+    },
+    {
+      "file": "outputs/table1_signs.csv",
+      "what": "The same table with one row per actor and column, for filtering: 24 actors times five layers and the net column.",
+      "rows": 144,
+      "columns": {
+        "id": "identifier of the actor's row in table1.csv",
+        "actor": "actor or industry",
+        "column": "physical, infrastructural, capabilities, institutional, jurisdictional, or net",
+        "layer_number": "1 to 5 for a layer; empty for the net column",
+        "sign": "the sign: ++, +, 0, - or --",
+        "score": "the sign as a whole number from 2 to -2, for sorting only; not a measured size and not to be summed"
+      }
+    },
+    {
+      "file": "outputs/layers.csv",
+      "what": "The five layers of scarcity, in the article's words.",
+      "rows": 5,
+      "columns": {
+        "layer": "number of the layer, 1 to 5",
+        "name": "name of the layer",
+        "holds": "what the layer consists of, from the article's list of the five layers, citations removed",
+        "prediction": "the sentence that follows the word 'Prediction:' in the article's section on that layer"
+      }
+    },
+    {
+      "file": "outputs/claims.csv",
+      "what": "The three central claims, as listed in the introduction.",
+      "rows": 3,
+      "columns": {
+        "claim": "number of the claim, 1 to 3",
+        "title": "the claim in a few words, as printed in bold",
+        "text": "the article's explanation of the claim"
+      }
+    },
+    {
+      "file": "outputs/definitions.csv",
+      "what": "Seven terms of the paper, each with the passage of the article that defines it.",
+      "rows": 7,
+      "columns": {
+        "term": "the term",
+        "short": "its abbreviation, where the article uses one",
+        "section": "the section of the article the passage is taken from",
+        "text": "the passage, word for word, citations removed; it can be a phrase, and it can refer to text that stands before it in the article"
+      }
+    },
+    {
+      "file": "outputs/model.csv",
+      "what": "The model of the section 'A compact mathematical formulation': six equations, the definition of AEA, the proposition and its proof.",
+      "rows": 9,
+      "columns": {
+        "item": "Equation 1 to 6, Definition 1, Proposition 1, or its proof",
+        "name": "for an equation, a label given by the record; for the definition and the proposition, the title the article gives them; empty for the proof",
+        "form": "latex for an equation; text with LaTeX mathematics for the others",
+        "content": "the equation or the statement, from the manuscript source"
+      }
+    },
+    {
+      "file": "outputs/symbols.csv",
+      "what": "Glossary of the symbols. Written for this record from the article's definitions; not a passage of the article.",
+      "rows": 21,
+      "columns": {
+        "symbol": "short name of the symbol",
+        "latex": "the symbol in LaTeX, in a form that occurs in the manuscript source",
+        "meaning": "what it stands for",
+        "introduced_in": "where the article introduces it"
+      }
+    },
+    {
+      "file": "outputs/tests.csv",
+      "what": "Beyond the article: for each prediction, how it could be found wrong. Baselines 2022 and 2026; first reading on data for 2027, final reading on data for 2032. No reading has been taken.",
+      "rows": 11,
+      "columns": {
+        "id": "identifier of the test, T1 to T11",
+        "refers_to": "what the test is about: layer:N for the prediction on layer N; claim:central for the central claim as stated in the introduction; table:X<Y for two rows of Table 1 where the net sign of X is lower than that of Y",
+        "article_says": "the sentence or the net signs of the article that the test refers to, taken from the other tables",
+        "measure": "what would be measured",
+        "public_sources": "the kind of public source it can be read from; no series has been chosen",
+        "baseline": "the first year the change is measured from, 2022; for T7 to T11 an average of three years ending then",
+        "second_baseline": "the second year the change is measured from, 2026, the year the tests were written; the verdict is taken from this one",
+        "first_reading": "the year of the data for the first reading",
+        "final_reading": "the year of the data for the final reading, at which the verdict is taken",
+        "counts_against": "the outcome at the final reading that would count against the paper",
+        "does_not_count": "an outcome that looks similar and would not count against the paper, with the reason"
+      }
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+# Scarcity in an age of AI abundance
+
+> This is a paper record, not a replication package: the paper is theoretical and has no data and
+> no computation to reproduce. The paper argues that AI can make many goods and services cheap to
+> produce (AI technological abundance, ATA) without making an essential standard of living broadly
+> affordable (AI economic abundance, AEA), because scarcity and its rents move to five layers:
+> physical resources, infrastructure, capabilities, institutions and jurisdictions. The record
+> holds the paper's definitions, the five layers with the prediction for each, the model, and Table
+> 1 as data, all read out of the manuscript source. One added page, which goes beyond the article,
+> says how each prediction could be found wrong. The manuscript is in paper/.
+
+Replication package by Agisilaos Papadogiannis (https://github.com/apapadogiannis).
+Forthcoming in Asian Review of Political Economy (2027). Preprint: https://doi.org/10.2139/ssrn.5924462
+Code and data: https://github.com/apapadogiannis/ai-abundance  Archive: https://doi.org/10.5281/zenodo.24441153
+Version 1.0.0, released 2026-11-22. A package is a fixed record: it changes only by a new
+release, and a release that changes a reported number gets a new major version.
+This file is written for AI agents and other programs. People should start at the README.
+
+## Coverage
+
+- Table 1 of the paper: 24 actors and industries in five panels, with the sign of each of the five
+  layers' contribution to the actor's rent income and the net sign. 144 signs.
+- The five layers of scarcity: what each holds and the one-sentence prediction the paper makes for
+  it.
+- The three central claims and seven definitions, in the paper's own words.
+- The model: Equations 1 to 6, Definition 1, Proposition 1 and its proof, with the mathematics in
+  LaTeX, and a glossary of 21 symbols.
+- Beyond the article: 11 tests, each with a measure, the kind of public source it can be read from,
+  the outcome that would count against the paper and what would not. Two baselines, 2022 and 2026;
+  readings on data for 2027 and for 2032; the verdict is taken on the change from 2026 to 2032. Ten
+  of the 24 rows of Table 1 are used by a test.
+- The three figures of the paper are diagrams and have no data.
+
+## What this adds over reading the paper or recomputing
+
+1. The table as data. Each of the 144 signs (120 layer signs and 24 net signs) can be looked up by
+   actor and column, and each actor has an identifier (A1 to E4) that the tests use. When the
+   record was made, the signs were compared once with the table in the journal's proof of the
+   article, and all 144 agreed; that comparison is not part of the check, because the proof is not
+   in this repository.
+2. A statement of what in the paper can and cannot be wrong. Proposition 1 is an existence claim
+   proved by construction, so no observation can count against it. The article calls its condition
+   (6) falsifiable: that condition can be checked for a given economy, which is a different thing.
+   The layer predictions and five pairs of rows of Table 1 can be wrong, and outputs/tests.csv says
+   by what measure and by when; beyond/README.md says how the verdict is taken and where the tests
+   are weak. The article itself gives no date and no measure.
+3. The paper's own limits, kept with the content: the table's caption says its entries are
+   schematic and conjectural, 'not forecasts', and 'may not materialize'. The record repeats this
+   wherever the signs are described.
+4. A separation of what is the article and what is not. Six tables hold the article's own signs and
+   passages. In them the record supplies only the row identifiers, the column names, the names of
+   the six equations, the scores, the choice of the seven defining passages and the column that
+   says which tests use a row. outputs/symbols.csv is a glossary written for this record from the
+   article's definitions. outputs/tests.csv, and the folder beyond/, go beyond the article.
+5. The signs, the passages and the equations are read out of the manuscript source by a script, so
+   none of them is typed. The script fails if the manuscript does not have 24 actors in five
+   panels, the five layer columns in order, five layers and six equations, if a symbol of the
+   glossary does not occur in the manuscript, or if a test refers to a row or a layer that does not
+   exist.
+6. The results are stored as they were when the paper's numbers were taken from them. A check
+   reruns the code on the stored data and compares every stored result file with the fresh one,
+   number by number (relative tolerance 1e-9; text and whole numbers exactly). It runs on every
+   change and once a month, and the badge in the README shows the last run.
+
+## Result tables
+
+One CSV file each in outputs/. The columns of each are described in outputs/results.json, under `tables`.
+
+- outputs/table1.csv (24 rows): Table 1 of the paper, one row per actor or industry: the expected
+  direction of each layer's contribution to rent income, and the net direction. Schematic and
+  conjectural; the article says the entries are not forecasts.
+- outputs/table1_signs.csv (144 rows): The same table with one row per actor and column, for
+  filtering: 24 actors times five layers and the net column.
+- outputs/layers.csv (5 rows): The five layers of scarcity, in the article's words.
+- outputs/claims.csv (3 rows): The three central claims, as listed in the introduction.
+- outputs/definitions.csv (7 rows): Seven terms of the paper, each with the passage of the article
+  that defines it.
+- outputs/model.csv (9 rows): The model of the section 'A compact mathematical formulation': six
+  equations, the definition of AEA, the proposition and its proof.
+- outputs/symbols.csv (21 rows): Glossary of the symbols. Written for this record from the
+  article's definitions; not a passage of the article.
+- outputs/tests.csv (11 rows): Beyond the article: for each prediction, how it could be found
+  wrong. Baselines 2022 and 2026; first reading on data for 2027, final reading on data for 2032.
+  No reading has been taken.
+
+## Files
+
+- outputs/results.json: a description of the eight record tables and the meaning of every column.
+  The content itself is in the CSV files. It holds a description of 8 result tables, and under
+  `package` the paper, the identifiers, the version, the licence and the citation. Start here.
+- outputs/table1.csv: for the table. One row per actor.
+- outputs/tests.csv: for what would count against the paper. The page beyond/README.md explains the
+  dates, how the verdict is taken and the limits of the tests.
+- paper/manuscript.pdf, paper/manuscript.tex: the paper, author's version of the accepted text.
+- data/symbols.csv, beyond/tests.csv: the two files written by hand. The script checks them; it
+  copies the first into outputs/ and joins the second to the passages and signs it refers to.
+
+Raw files: https://raw.githubusercontent.com/apapadogiannis/ai-abundance/main/<path>, for example https://raw.githubusercontent.com/apapadogiannis/ai-abundance/main/outputs/results.json
+
+## How to read the figures
+
+- A sign in Table 1 is the direction the paper expects for the change in an actor's rent income
+  from one layer (the product of the actor's share of that layer and the layer's rent). The article
+  calls the cells qualitative. ++ and -- mark a stronger change than + and -; the article gives no
+  size. 0 means no change or roughly none (the text says 'roughly neutral' and 'near zero'); it
+  does not mean missing.
+- The double minus is written -- in the files. The journal prints it as two minus signs.
+- The net column is, in the article's words, the implied direction of the change in the actor's
+  total rent income, which is the sum of the five layer components. The sizes of those components
+  are not given, so the net cannot be recomputed from the signs, and the scores must not be added
+  up: for A5 the layers are 0, ++, +, ++, ++ and the net is ++; for C1 they are 0, -, -, 0, 0 and
+  the net is -.
+- The scores 2, 1, 0, -1, -2 in outputs/table1_signs.csv only encode the signs for sorting and
+  filtering. They are not on an interval scale.
+- The table says 'post-AI' without a date. The article's regime boundary, Point A, is a threshold
+  of deployment and not a year.
+- The household rows (D1, D2) are read through household claims on layer rents and transfers, not
+  through direct ownership, as the article says.
+- A positive sign can come from a higher layer rent, a larger share of it, or both. The table does
+  not say which.
+- The predictions in outputs/layers.csv are quoted from the article. The measures and dates in
+  outputs/tests.csv and the verdict rules in beyond/README.md are not from the article: they were
+  set by the author for this record on 22 November 2026. Measured from 2022 the tests are not
+  blind: four of the five years to the first reading had passed when they were written. The second
+  baseline, 2026, is the year they were written, and the verdict is taken on the change from 2026
+  to 2032.
+- A test on two rows of Table 1 says which of the two did better. It does not test the level the
+  table gives either row.
+- A passage in outputs/definitions.csv is cut out of the article as it stands. It can be a phrase
+  and not a sentence, and it can refer to text before it ('these mechanisms' in the passage on
+  Point A are the four domains of cost compression). The formal definition of AEA is Definition 1
+  in outputs/model.csv. The article says 'broad affordability' in words and 'every household' in
+  Definition 1.
+- Cite the article. Its DOI is https://doi.org/10.1007/s44216-026-00090-y. The citation below gives
+  the address of the preprint, which is where the text can be read until the article appears.
+- Mathematics is kept in LaTeX: R_{2,t} is the rent of layer 2 at date t. outputs/symbols.csv
+  explains each symbol.
+- The title is written as the journal prints it, in sentence case. Earlier versions of the preprint
+  used 'Scarcity in an Age of AI Abundance'.
+
+## Do not use this for
+
+- A forecast of returns, margins or prices for any industry or company. The table's entries are
+  qualitative conjectures and the article says they are not forecasts.
+- Evidence that the predictions hold. No test in this record has been read against data.
+- An estimate of the size of any rent, of the ownership shares, or of the cost of the reference
+  bundle. The model has no calibrated parameter.
+- A date for AI technological abundance or a view on whether artificial general intelligence is
+  feasible. The paper takes no position on either.
+- Investment advice.
+
+## Source, licence and credit
+
+The results in outputs/ are released under CC BY 4.0
+(https://creativecommons.org/licenses/by/4.0/). The licence allows any reuse and has one condition:
+credit. If you use a figure from this package in an answer, a report or a data set, cite the paper.
+The code is under the MIT License.
+
+Nothing in this record comes from a third party. The paper is open access under CC BY 4.0, the
+licence of Asian Review of Political Economy, and the passages of it held in the tables are under
+that licence.
+
+Cite as: Papadogiannis, A. (2027). Scarcity in an age of AI abundance. Asian Review of Political Economy, forthcoming. https://doi.org/10.2139/ssrn.5924462
+
+The package itself: Papadogiannis, A. (2026). Scarcity in an age of AI abundance. Replication package, version 1.0.0. Zenodo. https://doi.org/10.5281/zenodo.24441153
+
+To describe the source in a sentence: Papadogiannis (forthcoming), "Scarcity in an age of AI
+abundance", Asian Review of Political Economy, https://doi.org/10.1007/s44216-026-00090-y, with the
+record of its definitions, model and table.
+
+The same licence and citation are inside outputs/results.json, under `package`.

@@ -23,5 +23,4 @@ jobs:
         run: ./run_all.sh
 
       - name: Verify the stored record is the one the manuscript gives
-        # llms.txt exists from version 1.0, once the archive DOI is known.
-        run: python3 check_outputs.py --no-run $([ -f llms.txt ] && echo --also llms.txt)
+        run: python3 check_outputs.py --no-run --also llms.txt

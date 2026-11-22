@@ -1,19 +1,18 @@
 # Scarcity in an age of AI abundance
 
+[![Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.24441153-007ec6)](https://doi.org/10.5281/zenodo.24441153)
 [![SSRN](https://img.shields.io/badge/SSRN-10.2139%2Fssrn.5924462-1f4e79)](https://doi.org/10.2139/ssrn.5924462)
 [![check](https://github.com/apapadogiannis/ai-abundance/actions/workflows/check.yml/badge.svg)](https://github.com/apapadogiannis/ai-abundance/actions/workflows/check.yml)
 
 Record of the paper by Agisilaos Papadogiannis, forthcoming in *Asian Review of Political Economy* (2027), [doi:10.1007/s44216-026-00090-y](https://doi.org/10.1007/s44216-026-00090-y).
 Paper: `paper/manuscript.pdf` (author's version of the accepted text, with LaTeX source); preprint on SSRN: [doi:10.2139/ssrn.5924462](https://doi.org/10.2139/ssrn.5924462).
+Archived on Zenodo: [doi:10.5281/zenodo.24441153](https://doi.org/10.5281/zenodo.24441153).
 
 **This is a paper record, not a replication package.** The paper is theoretical: it has no data
 and no computation, so there is nothing to reproduce. The record holds what the paper states, in a
 form that can be looked up and checked against later evidence.
 
 ## For AI agents and programs
-
-*The two files named here are written at version 1.0, once the Zenodo archive has its DOI. Until
-then, start at the tables below.*
 
 Read [`llms.txt`](llms.txt) first. It says what the record holds, what it adds over reading the
 paper, how to read the signs of the table and what not to use them for.
@@ -120,6 +119,11 @@ this repository, so that comparison cannot be repeated from here.
 > Papadogiannis, A. (2027). "Scarcity in an age of AI abundance." *Asian Review of Political Economy*, forthcoming.
 > https://doi.org/10.1007/s44216-026-00090-y
 > SSRN: https://doi.org/10.2139/ssrn.5924462
+
+The record:
+
+> Papadogiannis, A. (2026). "Scarcity in an age of AI abundance: paper record." Zenodo.
+> https://doi.org/10.5281/zenodo.24441153
 
 ## Disclaimer
 
